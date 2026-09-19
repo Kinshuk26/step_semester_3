@@ -5,12 +5,10 @@ public class Problem2 {
     int count = 0;
     private boolean[] answer;
     int pos = 0;
-    
     Scorecard(int max){
         this.max = max;
         this.answer = new boolean[max];
     }
-
     void recordAnswer(boolean a){
         if (pos >= max){
             return;
